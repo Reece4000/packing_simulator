@@ -1,4 +1,4 @@
-A simple interface for rectpack, created using PySide6.
+A simple interface for rectpack, made with PySide6.
 
 The UI lets you define a container and a set of loads, and displays the 2D packing simulation in a canvas on the right side of the display.
 
