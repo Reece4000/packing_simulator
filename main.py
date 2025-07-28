@@ -4,7 +4,6 @@ import random
 from decimal import Decimal
 from PySide6 import QtWidgets, QtCore, QtGui
 import rectpack
-from qt_material import apply_stylesheet
 
 
 class PannableGraphicsView(QtWidgets.QGraphicsView):
@@ -55,7 +54,7 @@ class PackingViewer(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Container Packing Visualiser - 2D")
-        self.setWindowIcon(QtGui.QIcon("N:/Development/container_packing/icon.png"))
+        self.setWindowIcon(QtGui.QIcon("icon.png"))
         self.resize(1280, 720)
 
         self._create_menu_bar()
