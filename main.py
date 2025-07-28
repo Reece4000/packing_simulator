@@ -1,7 +1,6 @@
 import sys
 import json
 import random
-from decimal import Decimal
 from PySide6 import QtWidgets, QtCore, QtGui
 import rectpack
 
